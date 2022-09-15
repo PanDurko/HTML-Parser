@@ -17,3 +17,22 @@ C:\Users\ASUS\RiderProject\HTML Parser\HTML Parser\obj\Debug\net6.0\HTML Parser.
 C:\Users\ASUS\RiderProject\HTML Parser\HTML Parser\obj\Debug\net6.0\ref\HTML Parser.dll
 C:\Users\ASUS\RiderProject\HTML Parser\HTML Parser\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\ASUS\RiderProject\HTML Parser\HTML Parser\bin\Debug\net6.0\Blazor.AngleSharp.dll
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\HTML Parser.exe
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\HTML Parser.deps.json
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\HTML Parser.runtimeconfig.json
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\HTML Parser.dll
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\HTML Parser.pdb
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\Blazor.AngleSharp.dll
+C:\Users\ASUS\Desktop\Parser\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.dll
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\refint\HTML Parser.dll
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.pdb
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\HTML Parser.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Parser\obj\Debug\net6.0\ref\HTML Parser.dll

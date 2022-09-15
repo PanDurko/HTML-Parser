@@ -3,12 +3,12 @@ using HTML_Parser.Abstract;
 
 namespace HTML_Parser;
 
-public class HtmlLoader
+public class Client
 {
     private HttpClient _client;
     private string _url;
 
-    public HtmlLoader(IParserSettings settings)
+    public Client(IPageSettings settings)
     {
         _client = new HttpClient();
         _url = settings.Url; 
@@ -19,7 +19,12 @@ public class HtmlLoader
         var response = await _client.GetAsync(_url);
         string source = null;
 
-        if (response != null && response.StatusCode == HttpStatusCode.OK)
+        bool CanConnectToPage()
+        {
+            return response.StatusCode == HttpStatusCode.OK;
+        }
+
+        if (CanConnectToPage())
         {
             source = await response.Content.ReadAsStringAsync();
         }

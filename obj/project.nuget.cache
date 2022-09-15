@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6xJzsEUDQe06PPbr+e31eAUn90gOPuPQ2DjfpCK9ByAG6GbcbbSStXXs+3dqpvlFmcDuSXP7c9zfq5jhFk+Aw==",
+  "dgSpecHash": "201gOHUIvjoQVH52lbbAk+lX5ueQBMtTJswqZM30MGe8D+R9Bqp2Z+h7zdjuccTcvnP6ZbS67o4VnQ7A8NXn5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\RiderProject\\HTML Parser\\HTML Parser\\HTML Parser.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\Parser\\HTML Parser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\blazor.anglesharp\\0.3.0\\blazor.anglesharp.0.3.0.nupkg.sha512",

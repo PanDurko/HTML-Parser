@@ -4676,11 +4676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\RiderProject\\HTML Parser\\HTML Parser\\HTML Parser.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Parser\\HTML Parser.csproj",
       "projectName": "HTML Parser",
-      "projectPath": "C:\\Users\\ASUS\\RiderProject\\HTML Parser\\HTML Parser\\HTML Parser.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\Parser\\HTML Parser.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\RiderProject\\HTML Parser\\HTML Parser\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\Parser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
