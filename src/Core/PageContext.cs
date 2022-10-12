@@ -2,17 +2,16 @@
 using HTML_Parser.Abstract;
 using HtmlParser = AngleSharp.Parser.Html.HtmlParser;
 
-namespace HTML_Parser;
+namespace HTML_Parser.Core;
 
 public class PageContext<T> where T : class
 {
-    private IPage<T> _page;
-    private IPageSettings _pageSettings;
+    private readonly IPage<T> _page;
 
-    private JsonFile<T> _file;
-    private Client _client;
+    private readonly JsonFile<T> _file;
+    private readonly Client _client;
 
-    public PageContext(IPage<T> page)
+    private PageContext(IPage<T> page)
     {
         _page = page;
         _file = new JsonFile<T>();
@@ -21,9 +20,7 @@ public class PageContext<T> where T : class
     
     public PageContext(IPage<T> page, IPageSettings pageSettings) : this(page)
     {
-        _pageSettings = pageSettings;
-
-        _client = new Client(_pageSettings); 
+        _client = new Client(pageSettings); 
     }
 
     private async Task<IHtmlDocument> GetHtmlDocument()

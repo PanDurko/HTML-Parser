@@ -1,12 +1,12 @@
 ﻿using System.Net;
 using HTML_Parser.Abstract;
 
-namespace HTML_Parser;
+namespace HTML_Parser.Core;
 
 public class Client
 {
-    private HttpClient _client;
-    private string _url;
+    private readonly HttpClient _client;
+    private readonly string _url;
 
     public Client(IPageSettings settings)
     {
@@ -18,6 +18,7 @@ public class Client
     {
         var response = await _client.GetAsync(_url);
         string source = null;
+        if (source == null) throw new ArgumentNullException(nameof(source));
 
         bool CanConnectToPage()
         {
