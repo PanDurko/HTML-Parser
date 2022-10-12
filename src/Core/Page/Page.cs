@@ -1,12 +1,12 @@
 ﻿using AngleSharp.Dom.Html;
 using HTML_Parser.Abstract;
 
-namespace HTML_Parser;
+namespace HTML_Parser.Core.Page;
 
 public class Page : IPage<string[]>
 {
-    private string _elementId;
-    private string _selectors;
+    private readonly string _elementId;
+    private readonly string _selectors;
 
     public Page(string elementId, string selectors)
     {
@@ -16,14 +16,8 @@ public class Page : IPage<string[]>
     
     public string[] Parse(IHtmlDocument document)
     {
-        List<string> films = new List<string>();
         var elements = document.GetElementById(_elementId).QuerySelectorAll(_selectors);
 
-        foreach (var element in elements)
-        {
-            films.Add(element.TextContent.Trim());
-        }
-        
-        return films.ToArray();
+        return elements.Select(element => element.TextContent.Trim()).ToArray();
     }
 }

@@ -1,14 +1,14 @@
 ﻿using Newtonsoft.Json;
 
-namespace HTML_Parser;
+namespace HTML_Parser.Core;
 
 public class JsonFile<T> where T : class
 {
-    private readonly string _path = @"C:/Users/ASUS/Desktop/FilmsData.json";
+    private readonly string _path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
     
     public void CreateJsonFile(T data)
     {
-        using (StreamWriter file = File.CreateText(_path))
+        using (var file = File.CreateText(_path))
         {
             SerializeData(data, file);
         }
@@ -16,9 +16,9 @@ public class JsonFile<T> where T : class
         Console.WriteLine($"Data saved to JSON! Path: {_path}");
     }
 
-    private static void SerializeData(T data, StreamWriter file)
+    private static void SerializeData(T data, TextWriter file)
     {
-        JsonSerializer serializer = new JsonSerializer();
+        var serializer = new JsonSerializer();
         serializer.Serialize(file, data);
     }
 }

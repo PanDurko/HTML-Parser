@@ -2,7 +2,7 @@
 
 namespace HTML_Parser.Abstract;
 
-public interface IPage<T> where T : class
+public interface IPage<out T> where T : class
 {
     T Parse(IHtmlDocument document); 
 }
